@@ -27,8 +27,6 @@ class App extends React.Component {
     var course_description =  document.getElementById('desc').value; 
     var course = {name:course_name, description:course_description};
     course_list.push(course);
-    this.setState({data:course_list});
-
   }
 
   DeleteCourse=()=>{
